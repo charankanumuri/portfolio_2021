@@ -2,7 +2,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Particles from 'react-particles-js'
+import Particles from 'react-particles-js';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
+import Experience from './components/Experience';
+import PortfolioV2 from './components/PortfolioV2';
 function App() {
 	return (
 		<>
@@ -26,6 +31,9 @@ function App() {
       }}/>
 			<Navbar />
       <Header/>
+      <AboutMe/>
+      <Experience/>
+      <PortfolioV2/>
 		</>
 	);
 }
