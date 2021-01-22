@@ -93,7 +93,7 @@ const PortfolioV2 = () => {
 						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>
 					{/* 2 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box" onClick={openPopupboxCovidTracker}>
 							<img
 								className="portfolio-image"
@@ -103,9 +103,9 @@ const PortfolioV2 = () => {
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 3 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box">
 							<img
 								className="portfolio-image"
@@ -115,9 +115,9 @@ const PortfolioV2 = () => {
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 4 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box">
 							<img
 								className="portfolio-image"
@@ -127,48 +127,48 @@ const PortfolioV2 = () => {
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 5 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box" onClick={openPopupboxMernECommerce}>
 							<img className="portfolio-image" src={e_commerce} alt="E commerce project" />
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 6 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box">
 							<img className="portfolio-image" src={react_charts} alt="React Charts project" />
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 7 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box">
 							<img className="portfolio-image" src={react_amplify} alt="React Amplify project" />
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 8 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box">
 							<img className="portfolio-image" src={zoom} alt="zoom Clone project" />
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 						</div>
-					</div>
+					
 					{/* 9 */}
-					<div className="image-box-wrapper row justify-content-center">
+					
 						<div className="portfolio-image-box" onClick={openPopupboxInstagram}>
 							<img className="portfolio-image" src={instagram} alt="Instagram Clone project" />
 							<div className="overflow" />
 							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                             
 						</div>
-					</div>
+					
 				</div>
 			</div>
             <PopupboxContainer {...popupboxConfigInstagram}/>

@@ -4,10 +4,9 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Particles from 'react-particles-js';
 import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio'
-import Resume from './components/Resume'
 import Experience from './components/Experience';
 import PortfolioV2 from './components/PortfolioV2';
+import Contacts from './components/Contacts';
 function App() {
 	return (
 		<>
@@ -34,6 +33,7 @@ function App() {
       <AboutMe/>
       <Experience/>
       <PortfolioV2/>
+      <Contacts/>
 		</>
 	);
 }
