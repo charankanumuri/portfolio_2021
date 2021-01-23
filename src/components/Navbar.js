@@ -3,10 +3,11 @@ import logo from '../default_pic.jpg';
 //REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
 			<div className="container">
 				<a className="navbar-brand" href="#">
 					<img className="logo" src={logo} alt="logo..." />
@@ -26,34 +27,34 @@ const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav ml-auto">
 						<li className="nav-item active">
-							<a className="nav-link" href="#">
+							<Link smooth={true} to="home" offset={-110} className="nav-link" href="#">
 								Home <span className="sr-only">(current)</span>
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Link
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">
 								Portfolio
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">
 								Resume
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link smooth={true} to="about" offset={-110} className="nav-link" href="#">
 								About me
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">
 								Contact
-							</a>
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link smooth={true} to="footer" offset={-110} className="nav-link" href="#">
+								Footer
+							</Link>
 						</li>
 					</ul>
 				</div>

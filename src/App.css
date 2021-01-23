@@ -59,7 +59,7 @@ nav ul li {
 }
 
 .navbar-nav>li>a.active,
-.navbar-nav>li>a.active:focus {
+.navbar-nav>li>a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -75,7 +75,7 @@ nav ul li {
   background: url(coffee-apple.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -370,8 +370,12 @@ nav ul li {
 
 .portfolio-image-box:hover .portfolio-icon {
   opacity: 50%;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper{
+  margin-top: 7rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
@@ -520,4 +524,28 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+
+/************************ FOOTER *********************************/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
